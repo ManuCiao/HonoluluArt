@@ -12,10 +12,17 @@ import MapKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var mapView: MKMapView!
+    
+    let regionRadius: CLLocationDistance = 3000
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // set initial location in Honolulu
-        let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
+        // set initial location in Genzano
+        let initialLocation = CLLocation(latitude: 41.706845, longitude: 12.696308)
+        
+        centerMapOnLocation(initialLocation)
+        
+      
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -24,6 +31,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func centerMapOnLocation(_ location: CLLocation) {
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
+            regionRadius * 2.0, regionRadius * 2.0)
+        mapView.setRegion(coordinateRegion, animated: true)
+    }
 
 }
 
