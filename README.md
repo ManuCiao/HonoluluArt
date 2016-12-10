@@ -1,1 +1,13 @@
-# HonoluluArt
+# GenzanoArt
+
+-- working in progress --
+An iOS App using Swift3 and Google Map API that will help to find the artistic hotspot in Genzano di Roma(Rome, IT).
+
+## Technologies
+
+- Swift3
+- Xcode8
+- iSO10
+- Google Map API and Direction API
+- MapKit
+
