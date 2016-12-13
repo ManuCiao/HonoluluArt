@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442AF11A1E009C3D00AD792F /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442AF1191E009C3D00AD792F /* JSON.swift */; };
+		442AF11C1E009CAE00AD792F /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 442AF11B1E009CAE00AD792F /* PublicArt.json */; };
+		442AF11E1E009CB800AD792F /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442AF11D1E009CB800AD792F /* VCMapView.swift */; };
+		442AF1201E009F0A00AD792F /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442AF11F1E009F0A00AD792F /* Artwork.swift */; };
 		98C2097A1DF6259300714819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C209791DF6259200714819 /* AppDelegate.swift */; };
 		98C2097C1DF6259300714819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2097B1DF6259300714819 /* ViewController.swift */; };
 		98C2097F1DF6259400714819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C2097D1DF6259400714819 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		442AF1191E009C3D00AD792F /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = ../../../../Downloads/HonoluluArt/HonoluluArt/JSON.swift; sourceTree = "<group>"; };
+		442AF11B1E009CAE00AD792F /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PublicArt.json; path = ../../../../Downloads/HonoluluArt/HonoluluArt/PublicArt.json; sourceTree = "<group>"; };
+		442AF11D1E009CB800AD792F /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCMapView.swift; path = ../../../../Downloads/HonoluluArt/HonoluluArt/VCMapView.swift; sourceTree = "<group>"; };
+		442AF11F1E009F0A00AD792F /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Artwork.swift; path = ../../../../Downloads/HonoluluArt/HonoluluArt/Artwork.swift; sourceTree = "<group>"; };
 		98C209761DF6259200714819 /* HonoluluArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C209791DF6259200714819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98C2097B1DF6259300714819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		442AF1211E009F3000AD792F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				442AF11B1E009CAE00AD792F /* PublicArt.json */,
+				98C209851DF6259500714819 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		98C2096D1DF6258800714819 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +114,15 @@
 		98C209781DF6259200714819 /* HonoluluArt */ = {
 			isa = PBXGroup;
 			children = (
+				442AF1211E009F3000AD792F /* Supporting Files */,
+				442AF11F1E009F0A00AD792F /* Artwork.swift */,
+				442AF1191E009C3D00AD792F /* JSON.swift */,
 				98C209791DF6259200714819 /* AppDelegate.swift */,
 				98C2097B1DF6259300714819 /* ViewController.swift */,
+				442AF11D1E009CB800AD792F /* VCMapView.swift */,
 				98C2097D1DF6259400714819 /* Main.storyboard */,
 				98C209801DF6259500714819 /* Assets.xcassets */,
 				98C209821DF6259500714819 /* LaunchScreen.storyboard */,
-				98C209851DF6259500714819 /* Info.plist */,
 			);
 			path = HonoluluArt;
 			sourceTree = "<group>";
@@ -232,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442AF11C1E009CAE00AD792F /* PublicArt.json in Resources */,
 				98C209841DF6259500714819 /* LaunchScreen.storyboard in Resources */,
 				98C209811DF6259500714819 /* Assets.xcassets in Resources */,
 				98C2097F1DF6259400714819 /* Main.storyboard in Resources */,
@@ -259,6 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442AF1201E009F0A00AD792F /* Artwork.swift in Sources */,
+				442AF11E1E009CB800AD792F /* VCMapView.swift in Sources */,
+				442AF11A1E009C3D00AD792F /* JSON.swift in Sources */,
 				98C2097C1DF6259300714819 /* ViewController.swift in Sources */,
 				98C2097A1DF6259300714819 /* AppDelegate.swift in Sources */,
 			);
@@ -410,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HonoluluArt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = manuciao.HonoluluArt;
@@ -422,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HonoluluArt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = manuciao.HonoluluArt;
@@ -503,6 +529,7 @@
 				98C209A01DF6259D00714819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98C209A11DF6259D00714819 /* Build configuration list for PBXNativeTarget "HonoluluArtTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +538,7 @@
 				98C209A31DF6259D00714819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98C209A41DF6259D00714819 /* Build configuration list for PBXNativeTarget "HonoluluArtUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +547,7 @@
 				98C209A61DF6259D00714819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
