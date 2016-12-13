@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // set initial location in Honolulu
+        // 1 set initial location in Honolulu
         let initialLocation = CLLocation(latitude: 21.283921, longitude: -157.831661)
         centerMapOnLocation(initialLocation)
         
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     var artworks = [Artwork]()
     func loadInitialData() {
-        // 1
+        // 2 Read the PublicArt.json file into an NSData object
         let fileName = Bundle.main.path(forResource: "PublicArt", ofType: "json");
         var data: Data?
         do {
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
             data = nil
         }
         
-        // 2
+        // 3 Use NSJSONSerialization to obtain a JSON object
         var jsonObject: Any? = nil
         if let data = data {
             do {
@@ -51,13 +51,13 @@ class ViewController: UIViewController {
             }
         }
         
-        // 3
+        // 4 Check that the JSON object is a dictionary where the keys are Strings and the values can be Any
         if let jsonObject = jsonObject as? [String: Any],
-            // 4
+            // 5 loop through "data" arrays, checking that each element is an array
             let jsonData = JSONValue.fromObject(jsonObject)?["data"]?.array {
             for artworkJSON in jsonData {
                 if let artworkJSON = artworkJSON.array,
-                    // 5
+                    // Pass each artwork’s array to the fromJSON method and append it to the artworks array.
                     let artwork = Artwork.fromJSON(artworkJSON) {
                     artworks.append(artwork)
                 }
