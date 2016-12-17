@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		442AF11A1E009C3D00AD792F /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442AF1191E009C3D00AD792F /* JSON.swift */; };
-		442AF11C1E009CAE00AD792F /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 442AF11B1E009CAE00AD792F /* PublicArt.json */; };
-		442AF11E1E009CB800AD792F /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442AF11D1E009CB800AD792F /* VCMapView.swift */; };
-		442AF1201E009F0A00AD792F /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442AF11F1E009F0A00AD792F /* Artwork.swift */; };
+		9834AB301E055EE600E90884 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9834AB2F1E055EE600E90884 /* Artwork.swift */; };
+		9834AB321E055EFD00E90884 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9834AB311E055EFD00E90884 /* JSON.swift */; };
+		9834AB341E055F1700E90884 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9834AB331E055F1700E90884 /* VCMapView.swift */; };
+		9834AB361E055F2A00E90884 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB351E055F2A00E90884 /* PublicArt.json */; };
+		9834AB3A1E0562FE00E90884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB391E0562FE00E90884 /* GoogleService-Info.plist */; };
+		9834AB3B1E0562FE00E90884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB391E0562FE00E90884 /* GoogleService-Info.plist */; };
+		9834AB3C1E0562FE00E90884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB391E0562FE00E90884 /* GoogleService-Info.plist */; };
+		9834AB3E1E0563F300E90884 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB3D1E0563F300E90884 /* Podfile */; };
+		9834AB3F1E0563F300E90884 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB3D1E0563F300E90884 /* Podfile */; };
+		9834AB401E0563F300E90884 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB3D1E0563F300E90884 /* Podfile */; };
 		98C2097A1DF6259300714819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C209791DF6259200714819 /* AppDelegate.swift */; };
 		98C2097C1DF6259300714819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2097B1DF6259300714819 /* ViewController.swift */; };
 		98C2097F1DF6259400714819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C2097D1DF6259400714819 /* Main.storyboard */; };
@@ -38,10 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		442AF1191E009C3D00AD792F /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = ../../../../Downloads/HonoluluArt/HonoluluArt/JSON.swift; sourceTree = "<group>"; };
-		442AF11B1E009CAE00AD792F /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PublicArt.json; path = ../../../../Downloads/HonoluluArt/HonoluluArt/PublicArt.json; sourceTree = "<group>"; };
-		442AF11D1E009CB800AD792F /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCMapView.swift; path = ../../../../Downloads/HonoluluArt/HonoluluArt/VCMapView.swift; sourceTree = "<group>"; };
-		442AF11F1E009F0A00AD792F /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Artwork.swift; path = ../../../../Downloads/HonoluluArt/HonoluluArt/Artwork.swift; sourceTree = "<group>"; };
+		9834AB2F1E055EE600E90884 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		9834AB311E055EFD00E90884 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		9834AB331E055F1700E90884 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		9834AB351E055F2A00E90884 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		9834AB391E0562FE00E90884 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9834AB3D1E0563F300E90884 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		98C209761DF6259200714819 /* HonoluluArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C209791DF6259200714819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98C2097B1DF6259300714819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +93,7 @@
 		442AF1211E009F3000AD792F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				442AF11B1E009CAE00AD792F /* PublicArt.json */,
+				9834AB351E055F2A00E90884 /* PublicArt.json */,
 				98C209851DF6259500714819 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -94,6 +102,7 @@
 		98C2096D1DF6258800714819 = {
 			isa = PBXGroup;
 			children = (
+				9834AB3D1E0563F300E90884 /* Podfile */,
 				98C209781DF6259200714819 /* HonoluluArt */,
 				98C2098D1DF6259A00714819 /* HonoluluArtTests */,
 				98C209981DF6259D00714819 /* HonoluluArtUITests */,
@@ -115,14 +124,15 @@
 			isa = PBXGroup;
 			children = (
 				442AF1211E009F3000AD792F /* Supporting Files */,
-				442AF11F1E009F0A00AD792F /* Artwork.swift */,
-				442AF1191E009C3D00AD792F /* JSON.swift */,
+				9834AB2F1E055EE600E90884 /* Artwork.swift */,
+				9834AB311E055EFD00E90884 /* JSON.swift */,
 				98C209791DF6259200714819 /* AppDelegate.swift */,
+				9834AB331E055F1700E90884 /* VCMapView.swift */,
 				98C2097B1DF6259300714819 /* ViewController.swift */,
-				442AF11D1E009CB800AD792F /* VCMapView.swift */,
 				98C2097D1DF6259400714819 /* Main.storyboard */,
 				98C209801DF6259500714819 /* Assets.xcassets */,
 				98C209821DF6259500714819 /* LaunchScreen.storyboard */,
+				9834AB391E0562FE00E90884 /* GoogleService-Info.plist */,
 			);
 			path = HonoluluArt;
 			sourceTree = "<group>";
@@ -252,10 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				442AF11C1E009CAE00AD792F /* PublicArt.json in Resources */,
+				9834AB3E1E0563F300E90884 /* Podfile in Resources */,
 				98C209841DF6259500714819 /* LaunchScreen.storyboard in Resources */,
 				98C209811DF6259500714819 /* Assets.xcassets in Resources */,
+				9834AB3A1E0562FE00E90884 /* GoogleService-Info.plist in Resources */,
 				98C2097F1DF6259400714819 /* Main.storyboard in Resources */,
+				9834AB361E055F2A00E90884 /* PublicArt.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +275,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9834AB3F1E0563F300E90884 /* Podfile in Resources */,
+				9834AB3B1E0562FE00E90884 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9834AB401E0563F300E90884 /* Podfile in Resources */,
+				9834AB3C1E0562FE00E90884 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				442AF1201E009F0A00AD792F /* Artwork.swift in Sources */,
-				442AF11E1E009CB800AD792F /* VCMapView.swift in Sources */,
-				442AF11A1E009C3D00AD792F /* JSON.swift in Sources */,
 				98C2097C1DF6259300714819 /* ViewController.swift in Sources */,
+				9834AB321E055EFD00E90884 /* JSON.swift in Sources */,
+				9834AB341E055F1700E90884 /* VCMapView.swift in Sources */,
+				9834AB301E055EE600E90884 /* Artwork.swift in Sources */,
 				98C2097A1DF6259300714819 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,9 +453,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HonoluluArt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = manuciao.HonoluluArt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manuciao.HonoluluArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -450,9 +467,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HonoluluArt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = manuciao.HonoluluArt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manuciao.HonoluluArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
