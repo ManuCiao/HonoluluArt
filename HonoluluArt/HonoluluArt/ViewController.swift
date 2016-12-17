@@ -9,8 +9,13 @@
 
 import UIKit
 import MapKit
+import FirebaseDatabase
+import FirebaseAuth
 
 class ViewController: UIViewController {
+    
+    let usersRef = FIRDatabase.database().reference(withPath: "online")
+    var user: User!
     
     @IBOutlet weak var mapView: MKMapView!
     
@@ -27,7 +32,11 @@ class ViewController: UIViewController {
         mapView.addAnnotations(artworks)
         
         mapView.delegate = self
-        
+       
+        FIRAuth.auth()!.addStateDidChangeListener { auth, user in
+            guard let user = user else { return }
+            self.user = User(authData: user)
+        }
     }
     
     var artworks = [Artwork]()
@@ -69,6 +78,17 @@ class ViewController: UIViewController {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
                                                                   regionRadius * 2.0, regionRadius * 2.0)
         mapView.setRegion(coordinateRegion, animated: true)
+    }
+    
+    // MARK: Actions
+    
+    @IBAction func signoutButtonPressed(_ sender: AnyObject) {
+        do {
+            try FIRAuth.auth()!.signOut()
+            dismiss(animated: true, completion: nil)
+        } catch {
+            
+        }
     }
     
 }

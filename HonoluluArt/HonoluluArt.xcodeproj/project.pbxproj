@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		67830E9996CA763533F6989F /* Pods_HonoluluArt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D7A077FC91560C07FB6719 /* Pods_HonoluluArt.framework */; };
 		982879231E05C67C00098D2C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982879221E05C67C00098D2C /* MapKit.framework */; };
+		9828792E1E05CEDF00098D2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9828792D1E05CEDF00098D2C /* User.swift */; };
+		9828792F1E05CEDF00098D2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9828792D1E05CEDF00098D2C /* User.swift */; };
+		982879301E05CEDF00098D2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9828792D1E05CEDF00098D2C /* User.swift */; };
+		982879321E05D1E200098D2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982879311E05D1E200098D2C /* LoginViewController.swift */; };
+		982879331E05D1E200098D2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982879311E05D1E200098D2C /* LoginViewController.swift */; };
+		982879341E05D1E200098D2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982879311E05D1E200098D2C /* LoginViewController.swift */; };
 		9834AB301E055EE600E90884 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9834AB2F1E055EE600E90884 /* Artwork.swift */; };
 		9834AB321E055EFD00E90884 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9834AB311E055EFD00E90884 /* JSON.swift */; };
 		9834AB341E055F1700E90884 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9834AB331E055F1700E90884 /* VCMapView.swift */; };
@@ -16,6 +22,7 @@
 		9834AB3A1E0562FE00E90884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB391E0562FE00E90884 /* GoogleService-Info.plist */; };
 		9834AB3B1E0562FE00E90884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB391E0562FE00E90884 /* GoogleService-Info.plist */; };
 		9834AB3C1E0562FE00E90884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB391E0562FE00E90884 /* GoogleService-Info.plist */; };
+		987F21821E05EF7900F60401 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987F21811E05EF7900F60401 /* AdSupport.framework */; };
 		98C2097A1DF6259300714819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C209791DF6259200714819 /* AppDelegate.swift */; };
 		98C2097C1DF6259300714819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2097B1DF6259300714819 /* ViewController.swift */; };
 		98C2097F1DF6259400714819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C2097D1DF6259400714819 /* Main.storyboard */; };
@@ -47,11 +54,14 @@
 		2F1D6A4D749B35BB85509FCC /* Pods-HonoluluArt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HonoluluArt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HonoluluArt/Pods-HonoluluArt.debug.xcconfig"; sourceTree = "<group>"; };
 		982879211E05C5F600098D2C /* HonoluluArt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HonoluluArt.entitlements; sourceTree = "<group>"; };
 		982879221E05C67C00098D2C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9828792D1E05CEDF00098D2C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "../../../../../Downloads/Grocr-final/Grocr/User.swift"; sourceTree = "<group>"; };
+		982879311E05D1E200098D2C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../../../../Downloads/Grocr-final/Grocr/LoginViewController.swift"; sourceTree = "<group>"; };
 		9834AB2F1E055EE600E90884 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		9834AB311E055EFD00E90884 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		9834AB331E055F1700E90884 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		9834AB351E055F2A00E90884 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
 		9834AB391E0562FE00E90884 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		987F21811E05EF7900F60401 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		98C209761DF6259200714819 /* HonoluluArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C209791DF6259200714819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98C2097B1DF6259300714819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987F21821E05EF7900F60401 /* AdSupport.framework in Frameworks */,
 				982879231E05C67C00098D2C /* MapKit.framework in Frameworks */,
 				67830E9996CA763533F6989F /* Pods_HonoluluArt.framework in Frameworks */,
 			);
@@ -109,6 +120,7 @@
 		96B418FAE744268BA6DD50EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				987F21811E05EF7900F60401 /* AdSupport.framework */,
 				982879221E05C67C00098D2C /* MapKit.framework */,
 				98D7A077FC91560C07FB6719 /* Pods_HonoluluArt.framework */,
 			);
@@ -118,6 +130,7 @@
 		982879281E05CC1000098D2C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				982879311E05D1E200098D2C /* LoginViewController.swift */,
 				98C2097B1DF6259300714819 /* ViewController.swift */,
 			);
 			name = Controller;
@@ -126,6 +139,7 @@
 		982879291E05CC2E00098D2C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9828792D1E05CEDF00098D2C /* User.swift */,
 				9834AB311E055EFD00E90884 /* JSON.swift */,
 				9834AB2F1E055EE600E90884 /* Artwork.swift */,
 			);
@@ -286,7 +300,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Manuela Sabatino";
 				TargetAttributes = {
 					98C209751DF6258900714819 = {
@@ -418,8 +432,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982879321E05D1E200098D2C /* LoginViewController.swift in Sources */,
 				98C2097C1DF6259300714819 /* ViewController.swift in Sources */,
 				9834AB321E055EFD00E90884 /* JSON.swift in Sources */,
+				9828792E1E05CEDF00098D2C /* User.swift in Sources */,
 				9834AB341E055F1700E90884 /* VCMapView.swift in Sources */,
 				9834AB301E055EE600E90884 /* Artwork.swift in Sources */,
 				98C2097A1DF6259300714819 /* AppDelegate.swift in Sources */,
@@ -430,6 +446,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982879331E05D1E200098D2C /* LoginViewController.swift in Sources */,
+				9828792F1E05CEDF00098D2C /* User.swift in Sources */,
 				98C2098F1DF6259B00714819 /* HonoluluArtTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +456,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982879341E05D1E200098D2C /* LoginViewController.swift in Sources */,
+				982879301E05CEDF00098D2C /* User.swift in Sources */,
 				98C2099A1DF6259D00714819 /* HonoluluArtUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +515,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -544,6 +565,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
