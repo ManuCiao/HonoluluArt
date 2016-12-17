@@ -1,20 +1,12 @@
-
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.1'
 
 target 'HonoluluArt' do
   use_frameworks!
-    pod 'Firebase/Core'
 
-  # Pods for HonoluluArt
-
-  target 'HonoluluArtTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'HonoluluArtUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 
 end
