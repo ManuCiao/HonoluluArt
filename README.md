@@ -10,6 +10,7 @@ An iOS App using Swift3 and Google Map API that will help to find the artistic h
 - iSO10
 - Google Map API and Direction API
 - MapKit
+- Firebase
 
 ## Improvements
 
