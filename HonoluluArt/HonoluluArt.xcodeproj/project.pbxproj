@@ -23,6 +23,9 @@
 		9834AB3B1E0562FE00E90884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB391E0562FE00E90884 /* GoogleService-Info.plist */; };
 		9834AB3C1E0562FE00E90884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9834AB391E0562FE00E90884 /* GoogleService-Info.plist */; };
 		987F21821E05EF7900F60401 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987F21811E05EF7900F60401 /* AdSupport.framework */; };
+		987F21841E0603CA00F60401 /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F21831E0603CA00F60401 /* OnlineUsersTableViewController.swift */; };
+		987F21851E0603CA00F60401 /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F21831E0603CA00F60401 /* OnlineUsersTableViewController.swift */; };
+		987F21861E0603CA00F60401 /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F21831E0603CA00F60401 /* OnlineUsersTableViewController.swift */; };
 		98C2097A1DF6259300714819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C209791DF6259200714819 /* AppDelegate.swift */; };
 		98C2097C1DF6259300714819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2097B1DF6259300714819 /* ViewController.swift */; };
 		98C2097F1DF6259400714819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C2097D1DF6259400714819 /* Main.storyboard */; };
@@ -62,6 +65,7 @@
 		9834AB351E055F2A00E90884 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
 		9834AB391E0562FE00E90884 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		987F21811E05EF7900F60401 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		987F21831E0603CA00F60401 /* OnlineUsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnlineUsersTableViewController.swift; path = "../../../../../Downloads/Grocr-final/Grocr/OnlineUsersTableViewController.swift"; sourceTree = "<group>"; };
 		98C209761DF6259200714819 /* HonoluluArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C209791DF6259200714819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98C2097B1DF6259300714819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 			children = (
 				982879311E05D1E200098D2C /* LoginViewController.swift */,
 				98C2097B1DF6259300714819 /* ViewController.swift */,
+				987F21831E0603CA00F60401 /* OnlineUsersTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -437,6 +442,7 @@
 				9834AB321E055EFD00E90884 /* JSON.swift in Sources */,
 				9828792E1E05CEDF00098D2C /* User.swift in Sources */,
 				9834AB341E055F1700E90884 /* VCMapView.swift in Sources */,
+				987F21841E0603CA00F60401 /* OnlineUsersTableViewController.swift in Sources */,
 				9834AB301E055EE600E90884 /* Artwork.swift in Sources */,
 				98C2097A1DF6259300714819 /* AppDelegate.swift in Sources */,
 			);
@@ -447,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				982879331E05D1E200098D2C /* LoginViewController.swift in Sources */,
+				987F21851E0603CA00F60401 /* OnlineUsersTableViewController.swift in Sources */,
 				9828792F1E05CEDF00098D2C /* User.swift in Sources */,
 				98C2098F1DF6259B00714819 /* HonoluluArtTests.swift in Sources */,
 			);
@@ -457,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				982879341E05D1E200098D2C /* LoginViewController.swift in Sources */,
+				987F21861E0603CA00F60401 /* OnlineUsersTableViewController.swift in Sources */,
 				982879301E05CEDF00098D2C /* User.swift in Sources */,
 				98C2099A1DF6259D00714819 /* HonoluluArtUITests.swift in Sources */,
 			);

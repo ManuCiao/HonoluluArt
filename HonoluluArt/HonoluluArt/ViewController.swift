@@ -14,6 +14,10 @@ import FirebaseAuth
 
 class ViewController: UIViewController {
     
+    // MARK: Constants
+    let listToUsers = "ListToUsers"
+    
+    // MARK: Properties
     let usersRef = FIRDatabase.database().reference(withPath: "online")
     var user: User!
     
@@ -36,6 +40,9 @@ class ViewController: UIViewController {
         FIRAuth.auth()!.addStateDidChangeListener { auth, user in
             guard let user = user else { return }
             self.user = User(authData: user)
+            let currentUserRef = self.usersRef.child(self.user.uid)
+            currentUserRef.setValue(self.user.email)
+            currentUserRef.onDisconnectRemoveValue()
         }
     }
     
@@ -78,6 +85,10 @@ class ViewController: UIViewController {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
                                                                   regionRadius * 2.0, regionRadius * 2.0)
         mapView.setRegion(coordinateRegion, animated: true)
+    }
+    
+    func userCountButtonDidTouch() {
+        performSegue(withIdentifier: listToUsers, sender: nil)
     }
     
     // MARK: Actions
