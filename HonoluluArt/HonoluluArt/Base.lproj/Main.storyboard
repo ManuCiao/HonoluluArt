@@ -174,13 +174,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" multipleTouchEnabled="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Honolulu ArtShow" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vM8-a7-CKF">
-                                <rect key="frame" x="43" y="37" width="235" height="188"/>
+                                <rect key="frame" x="43" y="53" width="235" height="188"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="235" id="aJx-AW-wUN"/>
                                     <constraint firstAttribute="height" constant="188" id="cbX-Ea-2RB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="45"/>
-                                <color key="textColor" red="0.97261065244674683" green="0.60450655221939087" blue="0.11226282268762589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.99701875448226929" green="0.74243128299713135" blue="0.03632514551281929" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="shadowOffset" width="-1" height="-4"/>
@@ -190,7 +190,7 @@
                         <constraints>
                             <constraint firstItem="yRM-Ab-QCD" firstAttribute="trailing" secondItem="E7M-vk-7gg" secondAttribute="trailing" id="3M3-6b-biU"/>
                             <constraint firstItem="DKG-nR-J9w" firstAttribute="leading" secondItem="rfr-9y-1bg" secondAttribute="leadingMargin" constant="12" id="5kS-gd-mFl"/>
-                            <constraint firstItem="DKG-nR-J9w" firstAttribute="top" secondItem="vM8-a7-CKF" secondAttribute="bottom" constant="24" id="8GG-Mr-3o1"/>
+                            <constraint firstItem="DKG-nR-J9w" firstAttribute="top" secondItem="vM8-a7-CKF" secondAttribute="bottom" constant="8" id="8GG-Mr-3o1"/>
                             <constraint firstItem="DKG-nR-J9w" firstAttribute="trailing" secondItem="yRM-Ab-QCD" secondAttribute="trailing" id="A3u-93-PsI"/>
                             <constraint firstItem="yRM-Ab-QCD" firstAttribute="top" secondItem="DKG-nR-J9w" secondAttribute="bottom" constant="8" symbolic="YES" id="DGI-Z0-KIk"/>
                             <constraint firstItem="vf9-0r-xHQ" firstAttribute="leading" secondItem="rfr-9y-1bg" secondAttribute="leading" id="DqK-5s-yxr"/>
@@ -198,7 +198,7 @@
                             <constraint firstItem="vM8-a7-CKF" firstAttribute="centerX" secondItem="DKG-nR-J9w" secondAttribute="centerX" id="JBV-wb-Wpy"/>
                             <constraint firstItem="vf9-0r-xHQ" firstAttribute="bottom" secondItem="xv9-YQ-6QC" secondAttribute="top" id="N9H-iY-xWa"/>
                             <constraint firstItem="xbH-bc-0U0" firstAttribute="top" secondItem="yRM-Ab-QCD" secondAttribute="bottom" constant="10" id="ao1-EZ-dS7"/>
-                            <constraint firstItem="vM8-a7-CKF" firstAttribute="top" secondItem="Bfg-ZJ-fDz" secondAttribute="bottom" constant="17" id="fPz-Vi-scB"/>
+                            <constraint firstItem="vM8-a7-CKF" firstAttribute="top" secondItem="Bfg-ZJ-fDz" secondAttribute="bottom" constant="33" id="fPz-Vi-scB"/>
                             <constraint firstItem="E7M-vk-7gg" firstAttribute="leading" secondItem="xbH-bc-0U0" secondAttribute="trailing" constant="1" id="fWx-SJ-2Mg"/>
                             <constraint firstItem="DKG-nR-J9w" firstAttribute="leading" secondItem="yRM-Ab-QCD" secondAttribute="leading" id="gl6-3S-dxp"/>
                             <constraint firstItem="yRM-Ab-QCD" firstAttribute="leading" secondItem="xbH-bc-0U0" secondAttribute="leading" id="p2P-Ed-XUl"/>
